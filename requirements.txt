@@ -1,0 +1,11 @@
+tk
+pyttsx3
+requests
+speechrecognition
+spotipy
+psutil
+keyboard
+plyer
+pygame
+comtypes
+pycaw

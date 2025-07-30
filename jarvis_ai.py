@@ -390,7 +390,7 @@ def try_system_command(text):
 
     elif "open spotify" in lowered:
         try:
-            subprocess.Popen([r"C:\\Users\\avivm\\AppData\\Roaming\\Spotify\\Spotify.exe"])
+            subprocess.Popen([r"C:\\Users\\YOUR-USER\\AppData\\Roaming\\Spotify\\Spotify.exe"])
         except FileNotFoundError:
             return "Spotify not found."
         return P["open_spotify"]
@@ -401,7 +401,7 @@ def try_system_command(text):
 
     elif "open discord" in lowered:
         try:
-            subprocess.Popen([r"C:\\Users\\avivm\\AppData\\Local\\Discord\\Update.exe", "--processStart", "Discord.exe"])
+            subprocess.Popen([r"C:\\Users\\YOUR-USER\\AppData\\Local\\Discord\\Update.exe", "--processStart", "Discord.exe"])
         except FileNotFoundError:
             return "Discord not found."
         return P["open_discord"]
